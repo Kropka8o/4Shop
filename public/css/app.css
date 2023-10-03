@@ -77,8 +77,16 @@ header{
 }
 
 .product-body{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	width: 50%;
 	padding: 1em 2em;
+}
+
+.product-title{
+	display: flex;
+	justify-content: space-between;
 }
 
 .products .form-control{
@@ -92,6 +100,10 @@ header{
 
 span.collapsing{
 	display: block;
+}
+
+.discount{
+	color: red;
 }
 
 .cart{
